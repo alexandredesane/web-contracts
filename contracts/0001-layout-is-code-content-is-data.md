@@ -37,13 +37,13 @@ Rebuilding layout inside a CMS duplicates responsibility and introduces drift.
 
 ### Good
 
-``
+```
 <Hero
   title={content.title}
   subtitle={content.subtitle}
   image={content.image}
 />
-``
+```
 
 The component owns layout.<br>
 The CMS only provides values.

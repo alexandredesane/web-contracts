@@ -31,10 +31,16 @@ Implicit state ownership leads to:
 
 ### Good
 
-`<x-dialog :open="open" @x-close="open = false"></x-dialog>`
+```
+<x-dialog 
+    :open="open" 
+    @x-close="open = false"
+    >
+</x-dialog>
+```
 
-The dialog owns its open/close behavior.<br>
-Alpine owns the state.<br>
+The dialog owns its **behavior**.<br>
+Alpine owns the **state**.<br>
 The dialog reacts to it.
 
 Ownership is clear.
