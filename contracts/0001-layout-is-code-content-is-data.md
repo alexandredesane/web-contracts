@@ -74,6 +74,6 @@ When breaking this contract, document it explicitly.
 
 ## Related contracts
 
-- [0002 — State ownership](./contracts/0002-state-ownership.md)
+- [0002 — State ownership](./0002-state-ownership.md)
 - 0003 — Build-time first
 - 0007 — No implicit coupling

@@ -65,6 +65,6 @@ If state ownership is shared, document why and for how long.
 
 ## Related contracts
 
-- [0001 — Layout is code, content is data](./contracts/0001-layout-is-code-content-is-data.md)
+- [0001 — Layout is code, content is data](./0001-layout-is-code-content-is-data.md)
 - 0006 — Events, not callbacks
 - 0007 — No implicit coupling
